@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&family=Luckiest+Guy&family=Luxurious+Roman&family=Montserrat:ital,wght@0,100..900;1,100..900&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Play:wght@400;700&family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sofia+Sans:ital,wght@0,1..1000;1,1..1000&family=Wallpoet&display=swap');
+
+body {
+  margin: 0;
+  font-family: "Bruno Ace SC", sans-serif;
+  box-sizing: border-box;
+  color: aliceblue;
+  background: radial-gradient(rgb(1, 0, 12), rgb(20, 20, 43));
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  font-size: 3.5rem;
+  margin-bottom: 5px;
+  font-family: "Bruno Ace SC", sans-serif;
+  color: rgb(160, 255, 161);
+}
+
+h3 {
+  max-width: 600px;
+  margin-bottom: 28px;
+  line-height: 2rem;
+  letter-spacing: 2px;
+  font-family: "Sofia Sans", sans-serif;
+}
+
+.btn-container {
+  margin: 8px;
+}
+
+button {
+  margin: 10px 20px;
+  padding: 10px 30px;
+  border: none;
+  border-radius: 10px;
+  background: radial-gradient(rgb(160, 255, 161), rgb(99, 147, 121));
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+}
+
+img {
+  width: 80px;
+  height: 80px;
+}
+
+.display-score-containers {
+  display: flex;
+  flex-direction: row;
+  gap: 180px;
+  margin: 20px;
+}
+
+.player-display,
+.computer-display,
+.player-score,
+.computer-score {
+  margin: 10px;
+  font-size: 2rem;
+}
+
+.results {
+  font-size: 2.2rem;
+  margin: 10px;
+}
