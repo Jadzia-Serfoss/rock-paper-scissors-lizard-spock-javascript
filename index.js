@@ -40,4 +40,12 @@ function game(playerChoice) {
 
   playerScoreDisplay.textContent = `${playerScore}`;
   computerScoreDisplay.textContent = `${computerScore}`;
+
+  if (result === "It's a tie!") {
+    resultDisplay.style.color = "white";
+  } else if (result === "You lose...") {
+    resultDisplay.style.color = "red";
+  } else if (result === "You win! Live long and prosper!") {
+    resultDisplay.style.color = "rgb(247, 255, 3)";
+  };
 }
