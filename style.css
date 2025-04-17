@@ -99,7 +99,7 @@ img {
 }
 
 .input:checked + .label {
-  background-color: red;
+  background-color: aliceblue;
 }
 
 .input:checked + .label .circle {
