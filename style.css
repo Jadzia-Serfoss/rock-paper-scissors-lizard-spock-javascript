@@ -69,3 +69,57 @@ img {
   margin: 10px;
   color: rgb(160, 255, 161);
 }
+
+/* DARK MODE TOGGLE */
+
+.input {
+  visibility: hidden;
+}
+
+.label {
+  position: absolute;
+  width: 50px;
+  height: 25px;
+  background-color: aliceblue;
+  border-radius: 20px;
+  top: 20px;
+  right: 20px;
+  cursor: pointer;
+}
+
+.circle {
+  position: absolute;
+  width: 23px;
+  height: 23px;
+  border-radius: 50%;
+  background-color: rgb(20, 20, 43);
+  top: 1px;
+  left: 1px;
+  animation: toggleOff 0.3s linear forwards;
+}
+
+.input:checked + .label {
+  background-color: red;
+}
+
+.input:checked + .label .circle {
+  animation: toggleOn 0.3s linear forwards;
+}
+
+@keyframes toggleOn {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(25px);
+  }
+}
+
+@keyframes toggleOff {
+  0% {
+    transform: translateX(25px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
