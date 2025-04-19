@@ -19,7 +19,7 @@ function game(playerChoice) {
   (playerChoice === 'Paper' && computerChoice === 'Rock') || 
   (playerChoice === 'Rock' && computerChoice === 'Lizard') || 
   (playerChoice === 'Lizard' && computerChoice === 'Spock') || 
-  (playerChoice === 'Spock' && computerChoice === 'Scissor') || 
+  (playerChoice === 'Spock' && computerChoice === 'Scissors') || 
   (playerChoice === 'Scissors' && computerChoice === 'Lizard') ||
   (playerChoice === 'Lizard' && computerChoice === 'Paper') || 
   (playerChoice === 'Paper' && computerChoice === 'Spock') || 
